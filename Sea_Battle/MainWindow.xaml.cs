@@ -38,10 +38,6 @@ namespace Sea_Battle
         private string _dirPath => Path.Combine(_appDir, _relativePath);
         private string _filePath => Path.Combine(_dirPath, "save.txt");
 
-
-
-
-
         SeaBattleController _seaBattleController = new SeaBattleController();
         List<Ship> _ships => _seaBattleController.ShipsController.Ships;
 
@@ -223,7 +219,6 @@ namespace Sea_Battle
                             deck3.Text = "x" + _deckcount3;
                             deck4.Text = "x" + _deckcount4;
                         }
-
                     }
                 }
                 else
@@ -260,11 +255,3 @@ namespace Sea_Battle
         }
     }
 }
-    
-
-
-
-
-
-
-  
